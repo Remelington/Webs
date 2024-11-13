@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://www.meatpoultry.com/ext/resources/2023/12/13/McDonalds-Lead_adst_Nitiphol.jpg?height=667&t=1702478009&width=1080);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu_wrapper{
+    display: flex;
+    grid-template-columns: repeat(2 1fr);
+    height: 90vh;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 43px;
+}
+
+.main_burger_wrapper{
+    display: flex;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+}
+
+.main_burger{
+    display: grid;
+    grid-template-columns: repeat(4, 375px);
+    grid-template-rows: repeat(2, 275px);
+}
+
+.main_burger img{
+    width: 100%;
+}
+
+.secondary_burger_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: gray;
+    width: fit-content;
+}
+    
+.secondary_burger{
+    display: grid;
+    grid-template-rows: repeat(6, 110px);
+}
+
+.secondary_burger img{
+    width: 150px;
+}
