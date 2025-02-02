@@ -1,6 +1,5 @@
 ## Solar System
-
-![[0X1yG6g 1.png]]
+/pictures/0X1yG6g.png
 ### 1. Pulsing sun
 - Pulzující Slunce pomocí 3 divů ve tvaru oválů s rotační animací a box-shadow.
 ![[oqIAZ83 1.gif]]
