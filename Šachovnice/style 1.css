@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(10, 60px);
+    grid-template-rows: repeat(10, 60px);
+    border: 10px solid rgb(0, 0, 0);
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.light {
+    background-color: rgb(236, 235, 235);
+}
+
+.dark {
+    background-color: rgb(83, 83, 83);
+}
+
+.clicked {
+    background-color: red;
+}
+
+#reset {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #3494fc;
+    color: white;
+}
